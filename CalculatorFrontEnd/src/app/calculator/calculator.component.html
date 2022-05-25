@@ -1,0 +1,65 @@
+<div class="CalculatorBase">
+    <div class="CalculatorInput">
+        <label class="CalculatorInputBar">{{Inputs}}</label>
+    </div>
+    <div class="CalculatorButtons">
+        <div class="row" style="padding-top:15px;">
+            <div class="col-md-3">
+                <button class="btn btn-number" [disabled]="NumbersDisabled" (click)="characterPush('7')" type="button">7</button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-number" [disabled]="NumbersDisabled" (click)="characterPush('8')" type="button">8</button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-number" [disabled]="NumbersDisabled" (click)="characterPush('9')" type="button">9</button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-operator" [disabled]="OperatorsDisabled" (click)="characterPush('/')" type="button">/</button>
+            </div>
+        </div>
+        <div class="row" style="padding-top:15px;">
+            <div class="col-md-3">
+                <button class="btn btn-number" [disabled]="NumbersDisabled" (click)="characterPush('4')" type="button">4</button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-number" [disabled]="NumbersDisabled" (click)="characterPush('5')" type="button">5</button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-number" [disabled]="NumbersDisabled" (click)="characterPush('6')" type="button">6</button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-operator" [disabled]="OperatorsDisabled" (click)="characterPush('X')" type="button">X</button>
+            </div>
+        </div>
+        <div class="row" style="padding-top:15px;">
+            <div class="col-md-3">
+                <button class="btn btn-number" [disabled]="NumbersDisabled" (click)="characterPush('3')" type="button">3</button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-number" [disabled]="NumbersDisabled" (click)="characterPush('2')" type="button">2</button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-number" [disabled]="NumbersDisabled" (click)="characterPush('1')" type="button">1</button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-operator" [disabled]="OperatorsDisabled" (click)="characterPush('-')" type="button">-</button>
+            </div>
+        </div>
+        <div class="row" style="padding-top:15px;">
+            <div class="col-md-3">
+                <button class="btn btn-number" [disabled]="NumbersDisabled" (click)="characterPush('0')" type="button">0</button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-operator" (click)="ClearInput()" type="button">C</button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-operator" [disabled]="EqualsDisabled" (click)="Calculate()" type="button">=</button>
+            </div>
+            <div class="col-md-3">
+                <button class="btn btn-operator" [disabled]="OperatorsDisabled" (click)="characterPush('+')" type="button">+</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+

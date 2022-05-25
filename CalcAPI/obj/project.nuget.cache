@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "krFZilay6P6sPXWbK/zSA5i7g+kgzAQQPjA5gUXperlJfktLmPzEnLiQPj2Ygb+wqRSbYkhjJP3bp3Lth0doOw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\btaylor\\source\\repos\\Calculator\\CalcAPI\\CalcAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\btaylor\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\btaylor\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\btaylor\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\btaylor\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\btaylor\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\btaylor\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

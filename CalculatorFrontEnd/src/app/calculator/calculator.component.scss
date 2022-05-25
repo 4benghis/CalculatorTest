@@ -1,0 +1,42 @@
+.CalculatorBase {
+    background-color: #5a5c68;
+    padding: 10px;
+    border-radius: 5px;
+}
+.CalculatorInput {
+    border-radius: 5px;
+    padding:3px;
+    width:300px;
+    height:48px;
+    text-align: right;
+    background-color:#c1d798;
+}
+
+.CalculatorInputBar {
+    font-size:xx-large;
+    font-weight: 300;
+    color: #5a5c68;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.CalculatorButtons {
+    padding-top:5px;
+}
+
+.btn-number{
+    color: #fff;
+    background-color: #3d4049;
+    border-color: #3d4049;
+    width:100%;
+    font-size:large;
+    font-weight: 300;
+}
+
+.btn-operator{
+    color: #fff;
+    background-color: #bcc0c7;
+    border-color: #bcc0c7;
+    width:100%;
+    font-size:large;
+    font-weight: 300;
+}
